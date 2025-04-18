@@ -1,0 +1,111 @@
+.cookies-section {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+  width: 100%;
+  background-color: #e8f0e9;
+  border-radius: 24px;
+}
+
+.cookies-container {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  @media screen and (min-width: 1440px) {
+    padding: 20px 30px;
+    justify-content: space-between;
+  }
+}
+
+.cookies-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 194px;
+  @media screen and (min-width: 1440px) {
+    max-width: 535px;
+  }
+}
+
+.cookies-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #341e14;
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}
+
+.cookies-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #436977;
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}
+
+.cookies-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+  }
+}
+
+.cookies-button {
+  width: 295px;
+  height: 78px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 300ms ease;
+  width: 133px;
+  height: 44px;
+  @media screen and (min-width: 1440px) {
+    border-radius: 14px;
+    width: 182px;
+    height: 51px;
+  }
+}
+
+.cookies-button:hover {
+  opacity: 0.8;
+}
+
+.cookies-accept-js {
+  background-color: #3b603b;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #f5f0e6;
+  font-family: 'Poppins', sans-serif;
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+    width: 163px;
+  }
+}
+
+.cookies-decline-js {
+  border: 1px solid #3b603b;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #341e14;
+  font-family: 'Poppins', sans-serif;
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}

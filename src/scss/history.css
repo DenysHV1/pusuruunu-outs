@@ -1,0 +1,21 @@
+.history {
+  margin-bottom: 80px;
+  scroll-margin-top: 100px;
+  @media (min-width: 1440px) {
+    margin-bottom: 140px;
+  }
+}
+
+.history_container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  @media (min-width: 1440px) {
+    padding: 0 80px;
+    gap: 36px;
+  }
+}
+
