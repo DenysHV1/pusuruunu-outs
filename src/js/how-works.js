@@ -25,7 +25,7 @@ centeredSlides: false,
 						onlyInViewport: true,
 					},
 					pagination: {
-						el: ".swiper-pagination",
+						el: ".swiper-pagination-how-works",
 						clickable: true,
 					},
 				});

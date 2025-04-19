@@ -84,3 +84,13 @@
 .swiper-slide-how-works-3 {
   background-image: url(../img/how-works/card-bg-3.png);
 }
+
+.swiper-pagination-how-works{
+  display: flex !important;
+  justify-content: center;
+  position: relative !important;
+  margin-top: 32px;
+  @media screen and (min-width: 1440px) {
+    display: none !important;
+  }
+}
