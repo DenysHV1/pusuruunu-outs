@@ -21,7 +21,7 @@
   }
 }
 
-.hero_envelope-1{
+.hero_envelope-1 {
   width: 61px;
   height: 53px;
   position: absolute;
@@ -35,26 +35,25 @@
   }
 }
 
-.hero_envelope-2{
+.hero_envelope-2 {
   display: none;
-@media screen and (min-width: 1440px) {
-  display: flex;
-  position: absolute;
-  top: 447px;
-  left: 405px;
-  width: 222px;
-  height: 137px;
-}
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    position: absolute;
+    top: 447px;
+    left: 405px;
+    width: 222px;
+    height: 137px;
+  }
 }
 
-
-.hero_envelope-3{
+.hero_envelope-3 {
   position: absolute;
   width: 43px;
   height: 35px;
   top: 395px;
   left: 200px;
-  @media screen and (min-width: 1440px){
+  @media screen and (min-width: 1440px) {
     width: 73px;
     height: 49px;
     top: 295px;
@@ -62,7 +61,7 @@
   }
 }
 
-.hero_envelope-4{
+.hero_envelope-4 {
   position: absolute;
   top: 253px;
   left: 290px;
@@ -73,11 +72,10 @@
     height: 126px;
     top: 419px;
     left: 1284px;
-
   }
 }
 
-.hero_pen_mobile{
+.hero_pen_mobile {
   position: absolute;
   top: 225px;
   width: 89px;
@@ -88,7 +86,7 @@
   }
 }
 
-.hero_pen_pc{
+.hero_pen_pc {
   display: none;
   @media screen and (min-width: 1440px) {
     display: flex;
@@ -97,7 +95,6 @@
     left: 70px;
     width: 266px;
     height: 378px;
-
   }
 }
 
@@ -115,7 +112,6 @@
 
     margin-bottom: 80px;
     max-width: 1143px;
-    /* white-space: nowrap; */
   }
 }
 
@@ -127,7 +123,7 @@
   }
 }
 
-.hero-title-box{
+.hero-title-box {
   white-space: nowrap;
 }
 

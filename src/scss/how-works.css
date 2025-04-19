@@ -85,7 +85,7 @@
   background-image: url(../img/how-works/card-bg-3.png);
 }
 
-.swiper-pagination-how-works{
+.swiper-pagination-how-works {
   display: flex !important;
   justify-content: center;
   position: relative !important;
