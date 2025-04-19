@@ -74,7 +74,7 @@
   align-self: flex-start;
   @media screen and (min-width: 1440px) {
     font-size: 24px;
-    max-width: 400px;
+    max-width: 334px;
   }
 }
 
@@ -116,5 +116,12 @@
   margin-top: 32px;
   @media screen and (min-width: 1440px) {
     display: none !important;
+  }
+}
+
+.choose-el {
+  max-width: 200px !important;
+  @media screen and (min-width: 1440px) {
+    max-width: 240px !important;
   }
 }

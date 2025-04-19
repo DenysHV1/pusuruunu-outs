@@ -153,6 +153,10 @@
   }
 }
 
+.contact-content-right > p > span {
+  white-space: nowrap;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
