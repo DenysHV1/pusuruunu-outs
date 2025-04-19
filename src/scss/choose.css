@@ -1,19 +1,120 @@
-.cabins {
+.choose {
   margin-bottom: 80px;
   scroll-margin-top: 100px;
-  @media screen and (min-width: 1440px) {
-    margin-bottom: 161px;
+  @media (min-width: 1440px) {
+    margin-bottom: 120px;
   }
 }
 
-.cabins_container {
+.choose_container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 28px;
-  @media screen and (min-width: 1440px) {
-    gap: 36px;
+  gap: 48px;
+  padding: 0 16px;
+  @media (min-width: 1440px) {
+    gap: 56px;
+    padding: 0 72px;
   }
 }
 
+.swiper-choose {
+  width: 100%;
+  overflow-y: hidden !important;
+}
+
+.choose-content {
+  max-width: 346px;
+  @media (min-width: 1440px) {
+    max-width: 100%;
+  }
+}
+
+.swiper-wrapper-choose {
+  display: flex;
+  @media (min-width: 1440px) {
+    gap: 24px;
+  }
+}
+
+.swiper-slide-choose {
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  gap: 8px;
+  background: rgba(98, 0, 0, 0.1);
+  padding: 16px;
+  min-height: 387px;
+  @media (min-width: 1440px) {
+    gap: 16px;
+    padding: 24px;
+    width: 416px;
+    max-width: 416px;
+    min-height: 449px;
+    height: 449px;
+  }
+}
+
+.swiper-slide-choose > h3 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  @media screen and (min-width: 1440px) {
+    font-size: 32px;
+  }
+}
+
+.swiper-slide-choose > p {
+  font-size: 18px;
+  text-align: left;
+  max-width: 250px;
+  display: flex;
+  align-self: flex-start;
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+    max-width: 400px;
+  }
+}
+
+.choose-top-box {
+  width: 284px;
+  max-width: 284px;
+  height: 249px;
+  max-height: 249px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 22px;
+  background: rgba(255, 252, 246, 0.3);
+  border-radius: 12px;
+  @media screen and (min-width: 1440px) {
+    width: 416px;
+    height: 370px;
+    gap: 32px;
+  }
+}
+
+.choose-top-box > strong {
+  font-family: 'Alex Brush', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.2;
+  color: #7d2e2e;
+}
+
+.choose-top-box > img {
+  max-height: 108px;
+}
+
+.swiper-pagination-choose {
+  display: flex !important;
+  justify-content: center;
+  position: relative !important;
+  margin-top: 32px;
+  @media screen and (min-width: 1440px) {
+    display: none !important;
+  }
+}
