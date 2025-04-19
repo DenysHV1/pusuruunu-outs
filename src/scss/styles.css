@@ -81,3 +81,33 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.swiper-pagination {
+  display: flex !important;
+  justify-content: center;
+  position: relative !important;
+  margin-top: 32px;
+  @media screen and (min-width: 1440px) {
+    display: none !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 32px !important;
+  height: 32px !important;
+  background-image: url('../img/pagination.png') !important;
+  background-color: transparent !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1 !important;
+  border: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-image: url('../img/pagination-active.png') !important;
+  background-size: 32px 32px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent !important;
+}

@@ -1,18 +1,86 @@
-.log {
+.how-works {
   margin-bottom: 80px;
   scroll-margin-top: 100px;
-  @media screen and (min-width: 1440px) {
-    margin-bottom: 140px;
+  @media (min-width: 1440px) {
+    margin-bottom: 120px;
   }
 }
 
-.log_container {
+.how-works_container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 28px;
-  @media screen and (min-width: 1440px) {
-    gap: 36px;
+  gap: 48px;
+  padding: 0 16px;
+  @media (min-width: 1440px) {
+    gap: 56px;
+    padding: 0 72px;
   }
 }
 
+.swiper-how-works {
+  width: 100%;
+  overflow-y: hidden !important;
+}
+
+.how-works-content {
+  max-width: 343px;
+  @media (min-width: 1440px) {
+    max-width: 100%;
+  }
+}
+
+.swiper-wrapper-how-works {
+  display: flex;
+  @media (min-width: 1440px) {
+    gap: 24px;
+  }
+}
+
+.swiper-slide-how-works {
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 55px 32px;
+  min-height: 262px;
+  @media (min-width: 1440px) {
+    gap: 16px;
+    padding: 93px 48px;
+    width: 416px;
+    max-width: 416px;
+    min-height: 306px;
+    height: 306px;
+  }
+}
+
+.swiper-slide-how-works > h3 {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: left;
+}
+
+.swiper-slide-how-works > p {
+  text-align: left;
+  font-size: 18px;
+  max-width: 311px;
+  @media (min-width: 1440px) {
+    max-width: 368px;
+  }
+}
+
+.swiper-slide-how-works-1 {
+  background-image: url(../img/how-works/card-bg-1.png);
+}
+
+.swiper-slide-how-works-2 {
+  background-image: url(../img/how-works/card-bg-2.png);
+}
+
+.swiper-slide-how-works-3 {
+  background-image: url(../img/how-works/card-bg-3.png);
+}
